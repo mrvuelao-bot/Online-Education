@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <nav>
+                <div class="navbar">
+                    <div class="logo">
+                        <i class="fa-solid fa-book"></i>
+                        <h2>E<strong>ການສືກສາ</strong></h2>
+                    </div>
+                    <ul class="nav-menu">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Course</a></li>
+                        <li class="open"><a href="#">Page </a>
+                            <ul class="down-menu">
+                                <li><a href="#">Our Team</a></li>
+                                <li><a href="#">Testimonail</a></li>
+                                <li><a href="#">Page 404</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">contact</a></li>
+                        <button class="nav-btn">ເຂົ້າຮ່ວມ <i class="fa-solid fa-arrow-right"></i></button>
+                    </ul>
+                </div>
+                <div class="ham-container" onclick="myfunction(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            </nav>
+            <ul class="mobile-menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">course</a></li>
+                <li><a href="#">Pages</a></li>
+                <li><a href="#">Contact</a></li>
+                <button class="nav-btn mobile-btn">ເຂົ້າຮ່ວມ <i class="fa-solid fa-arrow-right"></i></button>
+            </ul>
+
+            <main class="swiper">
+                <div class="container swiper-wrapper">
+                    <div class="left-container swiper-slide">
+                        <div class="info title">
+                            <h5 class=" from-top">ຫຼັກສຸດການສອນທີດີ</h5>
+                            <h1 class="reveal from-top ">ແພລດຟອມທີດີທີ່ສຸດສຳລັບການຮຽນອອນລາຍ</h1>
+                            <p reveal from-bottom>ສະບາຍດີ ຂໍເຊີນທຸກທ່ານເຂົ້າຮ່ວມແພລດຟອມຮຽນອອ່ນລາຍຂອງພວກເຮົາໄລຍະ3ເດືອນ</p>
+                            <div class="left-btn">
+                                <button class=" reveal from-left left-btn1">ຂໍ້ມູນເພີມຕື່ມ</button>
+                                <button class=" reveal from-right left-btn2">ເຂົ້າຮ່ວມ</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-container swiper-slide">
+                        <div class="info title">
+                            <h5>ຫຼັກສຸດການສອນທີດີ</h5>
+                            <h1>ຢູ່ບ້ານກໍສາມາດຮຽນຮູ້ໄດ້</h1>
+                            <p>ສະບາຍດີ ຂໍເຊີນທຸກທ່ານເຂົ້າຮ່ວມແພລດຟອມຮຽນອອ່ນລາຍຂອງພວກເຮົາໄລຍະ3ເດືອນ</p>
+                            <div class="left-btn">
+                                <button class="left-btn1">ຂໍ້ມູນເພີມຕື່ມ</button>
+                                <button class="left-btn2">ເຂົ້າຮ່ວມ</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+
+                </div>
+            </main>
+        
+        </div>
+    </header>
+    
+<section class="content">
+    <div class="content-container">
+        <div class="content-box slide-up">
+            <i class="fa-solid fa-graduation-cap"></i>
+           <h4>ທັກສະຂອງຄູຝືກ</h4>
+           <p>ຄູຝຶກທັກສະຂອງພວກເຮົາ ພ້ອມຊ່ວຍເຈົ້າພັດທະນາຄວາມສາມາດ ດ້ວຍການສອນທີ່ເຂົ້າໃຈງ່າຍ ແລະ ເນັ້ນການນຳໄປໃຊ້ຈິງ. ບໍ່ວ່າຈະເປັນທັກສະດ້ານ IT, ພາສາ ຫຼື ວິຊາຊີບ ພວກເຮົາພ້ອມນຳທາງໃຫ້ເຈົ້າສູ່ຄວາມສຳເລັດ.</p> 
+        </div>
+        <div class="content-box slide-up">
+            <i class="fa-solid fa-globe"></i>
+           <h4>ຫ້ອງຮຽນອອ່ນລາຍ</h4>
+           <p>ຮຽນທຸກທີ່ ທຸກເວລາ ກັບຫ້ອງຮຽນອອນລາຍຂອງພວກເຮົາ. ເຂົ້າເຖິງບົດຮຽນຄຸນນະພາບ ແລະ ຝຶກທັກສະໄດ້ຈິງ ພ້ອມຄູຝຶກມືອາຊີບ.</p> 
+        </div>
+        <div class="content-box slide-up">
+            <i class="fa-solid fa-house"></i>
+           <h4>ວຽກບ້ານ</h4>
+           <p>ແມ່ນບົດຝຶກຫັດທີ່ຖືກມອບໝາຍໃຫ້ນັກຮຽນເຮັດຜ່ານລະບົບອອນລາຍ ເພື່ອທົບທວນ ແລະ ພັດທະນາຄວາມຮູ້. ຜູ້ຮຽນສາມາດສົ່ງວຽກ, ຮັບຄຳແນະນຳ ແລະ ຕິດຕາມຜົນການຮຽນໄດ້ຢ່າງສະດວກຜ່ານແພລດຟອມ.</p> 
+        </div>
+        <div class="content-box slide-up">
+           <i class="fa-solid fa-book-open"></i>
+           <h4>ຫໍສະມຸດປື້ມ</h4>
+           <p>ຄົ້ນພົບຄັງປື້ມອອນລາຍຂອງພວກເຮົາ ທີ່ລວບລວມຄວາມຮູ້ຈາກຫຼາກຫຼາຍສາຂາ ໃຫ້ເຈົ້າຮຽນຮູ້ໄດ້ທຸກເວລາ.</p> 
+        </div>
+    </div>
+</section>
+
+<section class="aboutUs">
+    <div class="about-container">
+        <img class="slide-up" src="image/about.jpg" alt="">
+    <div class="about-info slide-up1">
+        <p>ກ່ຽວກັບ</p>
+        <h2>Eການສືກສາຍິນດີຕ້ອນ</h2>
+        <div class="about-text">
+            <span>ພວກເຮົາເປັນແພລດຟອມການຮຽນອອນລາຍທີ່ມຸ່ງໝັ້ນໃນການພັດທະນາຄວາມຮູ້ ແລະ ທັກສະທາງການຄິດໃຫ້ຜູ້ຮຽນທຸກຄົນ. ພວກເຮົາມີຫ້ອງຮຽນອອນລາຍ, ບົດຮຽນອື່ນໆ ແລະ ຄູຝຶກມືອາຊີບ ເພື່ອຊ່ວຍໃຫ້ຜູ້ຮຽນສາມາດຮຽນຮູ້ໄດ້ຢ່າງມີປະສິດທິພາບ.</span>
+            <br>
+            <br>
+            <span>ພວກເຮົາເປັນ online learning platform ທີ່ມຸ່ງໝັ້ນໃນການນຳຄວາມຮູ້ໃຫ້ຜູ້ຮຽນທຸກຄົນ. ເຮົາສະໝັກຄູຝຶກມືອາຊີບ, ບົດຮຽນຄຸນນະພາບ, ແລະ ທີ່ສະດວກໃນການຮຽນອອນລາຍ ເພື່ອຊ່ວຍໃຫ້ຜູ້ຮຽນພັດທະນາທັກສະໄດ້ຢ່າງມີປະສິດທິພາບ.</span>
+        </div>
+        <div class="about-list">
+            <div class="list">
+                <p>ທັກສະຄູຝືກ</p>
+                <p>ໃບຢັ້ງຢືນ</p>
+                <p>class ອອ່ນລາຍ</p>
+            </div>
+            <div class="list">
+                <p>ທັກສະຄູຝືກ</p>
+                <p>ໃບຢັ້ງຢືນ</p>
+                <p>class ອອ່ນລາຍ</p>
+            </div>
+        </div>
+        <button class="about-btn">ອ່ານເພີ່ມຕື່ມ</button>
+    </div>
+    </div>
+</section>
+
+
+<section class="categories">
+    <div class="cate-container">
+        <div class="cate-title">
+            <p>ການຈັດແບ່ງປະເພດຫຼັກສູດ</p>
+            <h3>ປະເພດຫຼັກສູດ</h3>
+        </div>
+        <div class="cate-cotent">
+            <div class="cate-row">
+                <div class="above-row">
+                    <img class="zoom" src="image/cat-1.jpg" alt="">
+                    <div class="cate-info">
+                        <h5>ອອກແບບ ເວບໄຊ໌</h5>
+                        <p>20 ຫຼັກສູດ</p>
+                    </div>
+                </div>
+                <div class="down-row">
+                    <div class="left-row">
+                        <img class="zoom" src="image/cat-2.jpg" alt="">
+                        <div class="cate-info">
+                            <h5>ອອກແບບກາຟິກ</h5>
+                            <p>35 ຫຼັກສູດ</p>
+                        </div>
+                    </div>
+                    <div class="left-row">
+                        <img class="zoom" src="image/cat-3.jpg" alt="">
+                        <div class="cate-info">
+                            <h5>ຕັດຕໍ່ວີດີໂອ</h5>
+                            <p>49 ຫຼັກສູດ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right-row">
+                <img class="zoom" src="image/cat-4.jpg" alt="">
+                <div class="cate-info">
+                    <h5>Web Design</h5>
+                    <p>49 course</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="popular-course">
+    <div class="popular-container">
+        <div class="popular-title">
+            <p>ຫຼັກສູດ</p>
+            <h2>ຫັຼກສູດຍອດນິຍົມ</h2>
+        </div>
+        <div class="popular-content">
+            <div class="p-box">
+                <img src="image/course-1.jpg" alt="">
+                <div class="p-btn">
+                    <button class="p-btn1">ອ່ານເພີ່ມຕື່ມ</button>
+                    <button class="p-btn2">ເຂົ້າຮ່ວມ</button>
+                </div>
+                <div class="p-box-info">
+                    <h4>$149.00</h4>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <p>(123)</p>
+                    </div>
+                    <h2>ຫຼັກສູດພັດທະນາໂປຣແກມແລະວິສະວະກອນຊອບແວ</h2>
+                </div>
+                <div class="bottom-info">
+                    <div class="bottom-content">
+                        <i class="fa-solid fa-user"></i>
+                        <p>Jonh Doe</p>
+                    </div>
+                    <div class="bottom-content border">
+                        <i class="fa-solid fa-clock"></i>
+                        <p>2ຊົວໂມງ/ມື້</p>
+                    </div>
+                    <div class="bottom-content border">
+                        <i class="fa-solid fa-user"></i>
+                        <p>ນັກສືກສາ30ຄົນ</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="p-box">
+                <img src="image/course-2.jpg" alt="">
+                <div class="p-btn">
+                    <button class="p-btn1">ອ່ານເພີ່ມຕື່ມ</button>
+                    <button class="p-btn2">ເຂົ້າຮ່ວມ</button>
+                </div>
+                <div class="p-box-info">
+                    <h4>$149.00</h4>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <p>(235)</p>
+                    </div>
+                    <h2>ຫຼັກສູດອອກແບບແລະພັດທະນາເວັບໄຊສຳລັບຜູ້ເລີ່ມຕົ້ນ</h2>
+                </div>
+                <div class="bottom-info">
+                    <div class="bottom-content">
+                        <i class="fa-solid fa-user"></i>
+                        <p>Jonh Doe</p>
+                    </div>
+                    <div class="bottom-content border">
+                        <i class="fa-solid fa-clock"></i>
+                        <p>2ຊົວໂມງ/ມື້</p>
+                    </div>
+                    <div class="bottom-content border">
+                        <i class="fa-solid fa-user"></i>
+                        <p>ນັກສືກສາ30ຄົນ</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="p-box">
+                <img src="image/course-3.jpg" alt="">
+                <div class="p-btn">
+                    <button class="p-btn1">ອ່ານເພີ່ມຕື່ມ</button>
+                    <button class="p-btn2">ເຂົ້າຮ່ວມ</button>
+                </div>
+                <div class="p-box-info">
+                    <h4>$149.00</h4>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <p>(09)</p>
+                    </div>
+                    <h2>ຫຼັກສູດອອກແບບແລະພັດທະນາໂມບາຍແອັບ</h2>
+                </div>
+                <div class="bottom-info">
+                    <div class="bottom-content">
+                        <i class="fa-solid fa-user"></i>
+                        <p>Jonh Doe</p>
+                    </div>
+                    <div class="bottom-content border">
+                        <i class="fa-solid fa-clock"></i>
+                        <p>2ຊົວໂມງ/ມື້</p>
+                    </div>
+                    <div class="bottom-content border">
+                        <i class="fa-solid fa-user"></i>
+                        <p>ນັກສືກສາ30ຄົນ</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="expert">
+    <div class="expert-container">
+        <div class="expert-title">
+            <p>ຄູຝືກ</p>
+            <h2>ຄູຝືກທີມີຄວາມຊ່ຽວຊານ</h2>
+        </div>
+        <div class="expert-content">
+            <div class="expert-box slide-up2">
+                <img src="image/team-1.jpg" alt="">
+                <div class="expert-contact">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-github"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div> 
+                <div class="expert-info">
+                    <h2>Sevana Jony</h2>
+                    <p>ພັດທະນາເວບໄຊ໌</p>
+                </div>               
+            </div>
+            <div class="expert-box slide-up2">
+                <img src="image/team-2.jpg" alt="">
+                <div class="expert-contact">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-github"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div> 
+                <div class="expert-info">
+                    <h2>Wilson</h2>
+                    <p>ພັດທະນາໂມບາຍແອັບ</p>
+                </div>               
+            </div>
+            <div class="expert-box slide-up2">
+                <img src="image/team-3.jpg" alt="">
+                <div class="expert-contact">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-github"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div> 
+                <div class="expert-info">
+                    <h2>John Deo</h2>
+                    <p>ອອກແບບເວບໄຊ໌</p>
+                </div>               
+            </div>
+            <div class="expert-box slide-up2">
+                <img src="image/team-4.jpg" alt="">
+                <div class="expert-contact">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-github"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div> 
+                <div class="expert-info">
+                    <h2>Alex Danniel</h2>
+                    <p>ພັດທະນາຊອບເວ</p>
+                </div>               
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="footer">
+    <div class="footer-container">
+        <div class="box-link">
+            <h5>Quick Link</h5>
+            <div class="link">
+                <a href="#">> about Us</a>
+                <a href="#">> Contact Us</a>
+                <a href="#">> Privacy Policy</a>
+                <a href="#">> Team & condition</a>
+                <a href="#">> FAQs & Hlep</a>
+            </div>
+        </div>
+        <div class="box-contact">
+            <h5>Contact</h5>
+            <div class="contact">
+                <li><i class="fa-solid fa-location-dot"></i> 15 Street, Luangprabang</li>
+                <li><i class="fa-solid fa-phone"></i>+856 2097848290</li>
+                <li><i class="fa-regular fa-envelope"></i>Elearning@gmail.com</li>
+                <div class="contact-icon">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-github"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+        <div class="box-gellery">
+            <h5>Gellery</h5>
+            <div class="box-gellery1">
+                <img src="image/course-1.jpg" alt="">
+                <img src="image/course-2.jpg" alt="">
+                <img src="image/course-3.jpg" alt="">
+                <img src="image/close-up-image-programer-working-his-desk-office.jpg" alt=""> 
+            </div>
+        </div>
+        <div class="box-message">
+            <h5>News Latter</h5>
+            <p>Lorem ipsum ritatis voluptatem eum quaerat excepturi, accusantium natus ipsam possimus fugit nemo itaque</p>
+            <div class="message">
+                <input type="email" placeholder=" Your Email"><button>SignUp</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
